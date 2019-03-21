@@ -1,6 +1,6 @@
 {
-  "name": "spatie/laravel-medialibrary",
-  "description": "Associate files with Eloquent models",
+  "name": "moazam1/laravel-medialibrary",
+  "description": "Associate files with Eloquent models. Jessengers MongoDB package compatible",
   "keywords": [
     "spatie",
     "laravel-medialibrary",
