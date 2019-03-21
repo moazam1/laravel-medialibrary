@@ -20,8 +20,9 @@ use Spatie\MediaLibrary\ImageGenerators\FileTypes\Image;
 use Spatie\MediaLibrary\UrlGenerator\UrlGeneratorFactory;
 use Spatie\MediaLibrary\Models\Traits\CustomMediaProperties;
 use Spatie\MediaLibrary\ResponsiveImages\RegisteredResponsiveImages;
+use Jenssegers\Mongodb\Eloquent\Model as Eloquent;
 
-class Media extends Model implements Responsable, Htmlable
+class Media extends Eloquent implements Responsable, Htmlable
 {
     use IsSorted,
         CustomMediaProperties;
